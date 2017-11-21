@@ -4,4 +4,18 @@ html {
 
 h1 {
   font-family: "Georgia", serif;
+  position: absolute;
+  top: 1em;
+  color: #fff;
+  font-weight: bold;
+}
+
+img {
+  max-width: 608px;
+  margin: 0 auto;
+}
+
+figure {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
