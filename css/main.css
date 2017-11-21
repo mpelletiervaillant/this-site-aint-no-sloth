@@ -2,20 +2,37 @@ html {
   font-family: "Verdana", sans-serif;
 }
 
+body {
+  background-color: #bea586;
+  background-image: url("../images/sloth-bg.svg");
+  background-size: 48px auto;
+  background-repeat: repeat;
+  background-position: left top;
+}
+}
+
+.wrapper {
+  max-width: 608px;
+  margin: 0 auto;
+  background-color: white;
+}
+
 h1 {
   font-family: "Georgia", serif;
   position: absolute;
   top: 1em;
   color: #fff;
   font-weight: bold;
+  z-index: 1;
 }
 
-img {
-  max-width: 608px;
-  margin: 0 auto;
+header {
+  position: relative;
 }
 
 figure {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #bea586;
+  border-bottom: 2px solid #bea586;
+  max-width: 608px;
+  margin: 0 auto;
 }
